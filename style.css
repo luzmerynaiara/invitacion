@@ -1401,3 +1401,6 @@ body.con-sobre { overflow: hidden; }
 .hero .scroll-flechas .icon { width: 20px; height: 20px; filter: drop-shadow(0 1px 2px rgba(14, 28, 47, 0.9)) drop-shadow(0 0 5px rgba(14, 28, 47, 0.4)); }
 .hero .scroll-flechas .icon + .icon { margin-top: -11px; opacity: 0.6; }
 @media (max-height: 740px) { .hero .scroll-flechas .icon { width: 17px; height: 17px; } .hero .scroll-flechas .icon + .icon { margin-top: -10px; } }
+
+/* Respaldo: si el navegador igual detecta el número como teléfono, que no se vea como enlace */
+.cuenta-numero a, a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font: inherit !important; pointer-events: none; }
