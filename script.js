@@ -6,7 +6,7 @@ const EVENT = {
   location: 'Club de Retirados Militares (Toledo)',
   description: '¡Te espero para celebrar mis XV años!',
   start: '20261017T203000',
-  end: '20261018T020000',
+  end: '20261018T040000',
 };
 
 let countdownTimer;
